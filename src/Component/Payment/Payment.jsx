@@ -86,7 +86,7 @@ export default function Payment() {
   
  
     <div className="container w-50 bg-main-light p-4 mt-5">
-        <h2>Check out :</h2>
+        <h2 className='mt-5'>Check out :</h2>
         <form onSubmit={myFormikPay.handleSubmit}>
  <div className="form-group my-4">
     <label className='fw-bloder h3 text-main' htmlFor="CityInput">City:</label >

@@ -33,8 +33,8 @@ export default function Cart() {
   // console.log(AllProduct.length);
   return <>
   {AllProduct.length > 0?
-  <div className='w-75 m-auto p-3 bg-main-light'>
-      <h3 className='fw-bold'>Shopping Cart</h3>
+  <div className='w-75 m-auto p-3 bg-main-light pt-5 mt-4'>
+      <h3 className='fw-bold mt-5'>Shopping Cart</h3>
       <h4 className='h5 text-main fw-bold h2 py-2'>Total Cart Price : {totalCartPrice}</h4>
       <div className='d-flex justify-content-between my-5'>
 <button className='btn btn-danger ' onClick={()=>{
