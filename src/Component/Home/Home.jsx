@@ -62,7 +62,7 @@ const {data,isError,isFetching,isLoading} =useQuery("getAllProducts",getAllProdu
 
 </div>
 
-<div className='container'>
+<div className='container categ'>
 <h4 className='pt-3 fw-bolder'>Shop Popular Categories</h4>
   <CategorySlider/>
 </div>

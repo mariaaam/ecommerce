@@ -93,5 +93,8 @@ body{
     .socialm li i{
         display: none;
     }
+    .categ{
+        display: none;
+    }
 }
 
